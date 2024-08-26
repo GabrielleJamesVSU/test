@@ -14,12 +14,6 @@ public class Account {
 		this.balance = balance;
 	}
 	
-
-	public Account(double balance) {
-
-		this("Unknown", balance);
-
-	}
 	
 	public Account(String name, double balance) {
 
